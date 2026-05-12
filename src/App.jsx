@@ -10,14 +10,12 @@ import O2Plants from "./components/O2Plants";
 
 import Footer from "./components/Footer";
 import CustomerReview from "./components/CustomerReview";
+import bgImg from "./assets/bg-img.jpg";
 
 function App() {
   return (
     <div className="m-0 p-0 overflow-x-hidden">
-      <img
-        src="src\assets\bg-img.jpg"
-        className="object-cover w-full h-420  relative"
-      />
+      <img src={bgImg} className="object-cover w-full h-420  relative" />
       <div className="absolute top-0">
         <Navbar />
         <HeroSection />
