@@ -3,12 +3,11 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import Navbar from "./components/Navbar";
-import NewNav from "./components/NewNav";
 import HeroSection from "./components/HeroSection";
 import TrendyPlantsSection from "./components/TrendyPlantsSection";
 import TopSellingPlant from "./components/TopSellingPlant";
 import O2Plants from "./components/O2Plants";
-import PlantCard from "./components/PlantCard";
+
 import Footer from "./components/Footer";
 import CustomerReview from "./components/CustomerReview";
 
