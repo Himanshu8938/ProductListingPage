@@ -34,7 +34,7 @@ const O2Plants = () => {
           </div>
         </div>
         <div className="absolute -top-18  left-8">
-          <img src="src\assets\hero-img.png" alt="" className="h-120 w-120" />
+          <img src="src/assets/hero-img.png" alt="" className="h-120 w-120" />
         </div>
       </div>
       <div className="flex items-center justify-center gap-2 mt-10">

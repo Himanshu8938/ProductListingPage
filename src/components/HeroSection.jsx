@@ -30,7 +30,7 @@ const HeroSection = () => {
         <div className="w-1/2">
           <div className="float-right  bg-white/5 rounded-2xl px-4 py-4">
             <img
-              src="src\assets\hero-img.png"
+              src="src/assets/hero-img.png"
               alt=""
               className="h-60 w-60 -mt-20"
             />
@@ -57,7 +57,7 @@ const HeroSection = () => {
       <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3 absolute top-120 left-10">
         <div className="flex items-center gap-2">
           <img
-            src="src\assets\profile-img.png"
+            src="src/assets/profile-img.png"
             alt=""
             className="w-10 h-10 rounded-full"
           />

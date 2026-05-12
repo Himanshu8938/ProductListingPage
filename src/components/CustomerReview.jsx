@@ -9,7 +9,7 @@ const CustomerReview = () => {
         <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3">
           <div className="flex items-center gap-2">
             <img
-              src="src\assets\cr1.png"
+              src="src/assets/cr1.png"
               alt=""
               className="w-10 h-10 rounded-full object-cover"
             />
@@ -32,7 +32,7 @@ const CustomerReview = () => {
         <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3">
           <div className="flex items-center gap-2">
             <img
-              src="src\assets\cr2.jpg"
+              src="src/assets/cr2.jpg"
               alt=""
               className="w-10 h-10 rounded-full object-cover"
             />
@@ -56,7 +56,7 @@ const CustomerReview = () => {
         <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3">
           <div className="flex items-center gap-2">
             <img
-              src="src\assets\cr3.png"
+              src="src/assets/cr3.png"
               alt=""
               className="w-10 h-10 rounded-full object-cover"
             />

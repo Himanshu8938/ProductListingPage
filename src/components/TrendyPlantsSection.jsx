@@ -25,7 +25,7 @@ const TrendyPlantsSection = () => {
           </div>
         </div>
         <div className="absolute -top-18  left-8">
-          <img src="src\assets\trendyPlant1.png" alt="" className="h-80 w-80" />
+          <img src="src/assets/trendyPlant1.png" alt="" className="h-80 w-80" />
         </div>
       </div>
       <div className="h-60 bg-white/10 rounded-3xl mx-6 mt-30 relative">
@@ -46,7 +46,7 @@ const TrendyPlantsSection = () => {
           </div>
         </div>
         <div className="absolute -top-18  right-8">
-          <img src="src\assets\trendyPlant2.png" alt="" className="h-80 w-80" />
+          <img src="src/assets/trendyPlant2.png" alt="" className="h-80 w-80" />
         </div>
       </div>
     </section>

@@ -10,7 +10,7 @@ const TopSellingPlant = () => {
       <div className="grid md:grid-cols-3 gap-30 mx-4 my-18">
         <div className="bg-white/5 rounded-2xl w-80 h-90">
           <img
-            src="src\assets\hero-img.png"
+            src="src/assets/hero-img.png"
             alt=""
             className="h-60 w-60 -mt-16 mx-6"
           />
@@ -30,7 +30,7 @@ const TopSellingPlant = () => {
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
           <img
-            src="src\assets\trendyPlant1.png"
+            src="src/assets/trendyPlant1.png"
             alt=""
             className="h-60 w-60 -mt-16 mx-6"
           />
@@ -50,7 +50,7 @@ const TopSellingPlant = () => {
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
           <img
-            src="src\assets\cactus.png"
+            src="src/assets/cactus.png"
             alt="Cactus"
             className="h-60 w-60 -mt-16 mx-10"
           />
@@ -69,7 +69,7 @@ const TopSellingPlant = () => {
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
           <img
-            src="src\assets\tsp4.png"
+            src="src/assets/tsp4.png"
             alt="Swiss cheese Plant"
             className="h-60 w-60 -mt-16 mx-6"
           />
@@ -89,7 +89,7 @@ const TopSellingPlant = () => {
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
           <img
-            src="src\assets\tsp5.png"
+            src="src/assets/tsp5.png"
             alt="Sansevieria plant"
             className="h-60 w-60 -mt-16 mx-6"
           />
@@ -109,7 +109,7 @@ const TopSellingPlant = () => {
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
           <img
-            src="src\assets\tsp6.png"
+            src="src/assets/tsp6.png"
             alt="Agave plant"
             className="h-60 w-60 -mt-16 mx-10"
           />
