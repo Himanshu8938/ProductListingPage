@@ -8,7 +8,7 @@ const CustomerReview = () => {
   return (
     <section className="text-white mx-5">
       <h1 className="flex justify-center text-4xl">Customer Review</h1>
-      <div className="grid md:grid-cols-3 gap-15 mt-15">
+      <div className="grid md:grid-cols-3 gap-30 mt-15">
         <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3">
           <div className="flex items-center gap-2">
             <img

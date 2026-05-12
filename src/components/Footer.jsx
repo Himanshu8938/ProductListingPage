@@ -3,14 +3,14 @@ import logo from "../assets/logo-img.png";
 
 const Footer = () => {
   return (
-    <section className="flex justify-between items-center  text-white mx-5">
-      <div className="w-1/3 mt-15">
+    <section className="grid md:grid-cols-3 gap-20  text-white mx-5 mt-25">
+      <div>
         <div className="flex items-center gap-3">
           <img src={logo} alt="logo" className="h-14 object-contain" />
 
           <h1 className="text-white text-4xl font-bold">FloraVision.</h1>
         </div>
-        <p>
+        <p className="mt-4">
           "From lush indoor greens to vibrant outdoor blooms, our plants are
           crafted to thrive and elevate your living environment."
         </p>
@@ -20,7 +20,7 @@ const Footer = () => {
           <span>Ll</span>
         </div>
       </div>
-      <div className="w-1/3  justify-items-center">
+      <div className="justify-items-center">
         <div>
           <p>Quick Link’s</p>
           <p className="pt-6 underline">Home</p>
@@ -29,18 +29,18 @@ const Footer = () => {
           <p className="underline">Privacy</p>
         </div>
       </div>
-      <div className="w-1/3">
-        <p className="mt-10">For Every Update.</p>
-        <div className="relative">
+      <div>
+        <p>For Every Update.</p>
+        <div className="relative pt-6">
           <input
             placeholder="Enter Email"
             className="border px-3 py-1 w-full"
           />
-          <button className="absolute right-0.5 top-1 bg-white text-black">
+          <button className="absolute right-0.5 top-7 bg-white text-black">
             Subscribe
           </button>
         </div>
-        <p className="mt-24">FloraVision © all right reserve</p>
+        <p className="mt-30">FloraVision © all right reserve</p>
       </div>
     </section>
   );

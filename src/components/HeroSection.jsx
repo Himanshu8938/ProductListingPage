@@ -12,8 +12,8 @@ import proImg from "../assets/profile-img.png";
 const HeroSection = () => {
   return (
     <section className="mt-30 mx-5">
-      <div className="flex text-white justify-between">
-        <div className="w-1/2 pt-10 relative">
+      <div className="grid md:grid-cols-2 text-white gap-30">
+        <div className="pt-10 relative">
           <h1 className="text-7xl">Earth’s Exhale</h1>
           <p className="font-extralight mt-1">
             "Earth Exhale" symbolizes the purity and vitality of the Earth's
@@ -29,8 +29,8 @@ const HeroSection = () => {
             <span style={{ fontFamily: "Indie Flower" }}>Live Demo..</span>
           </div>
         </div>
-        <div className="w-1/2">
-          <div className="float-right  bg-white/5 rounded-2xl px-4 py-4">
+        <div>
+          <div className="md:float-right  bg-white/5 rounded-2xl px-4 py-4">
             <img src={heroImg} alt="" className="h-60 w-60 -mt-20" />
             <div className="px-6">
               <p className="text-white/70">Indoor Plant</p>
@@ -52,7 +52,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3 absolute top-120 left-10">
+      <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3 absolute md:top-120 left-10">
         <div className="flex items-center gap-2">
           <img src={proImg} alt="" className="w-10 h-10 rounded-full" />
           <div>

@@ -10,7 +10,7 @@ const TrendyPlantsSection = () => {
         Our Trendy Plants
       </h1>
       <div className="h-60 bg-white/10 rounded-3xl mx-6 mt-25 relative">
-        <div className="w-1/2 float-right my-10 mr-8">
+        <div className="w-1/2 md:float-right my-10 mr-8">
           <h2 className="text-2xl font-semibold">For Your Desks Decorations</h2>
           <p>
             I recently added a beautiful desk decoration plant to my workspace,
@@ -26,7 +26,7 @@ const TrendyPlantsSection = () => {
             </span>
           </div>
         </div>
-        <div className="absolute -top-18  left-8">
+        <div className="absolute md:-top-18  left-8">
           <img src={tp1} alt="" className="h-80 w-80" />
         </div>
       </div>
@@ -47,7 +47,7 @@ const TrendyPlantsSection = () => {
             </span>
           </div>
         </div>
-        <div className="absolute -top-18  right-8">
+        <div className="absolute md:-top-18  md:right-8">
           <img src={tp2} alt="" className="h-80 w-80" />
         </div>
       </div>

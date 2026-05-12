@@ -4,10 +4,10 @@ import o2 from "../assets/hero-img.png";
 
 const O2Plants = () => {
   return (
-    <section className="text-white mt-20 mx-5">
+    <section className="text-white mt-20">
       <h1 className="text-4xl text-white flex justify-center">Our Best o2</h1>
       <div className="h-100 bg-white/10 rounded-3xl mx-6 mt-20 relative">
-        <div className="w-1/2 float-right my-20 mr-8">
+        <div className="w-1/2 md:float-right my-20 mr-8">
           <h2 className="text-2xl font-semibold">
             We Have Small And Best O2 Plants Collection’s
           </h2>
@@ -21,20 +21,21 @@ const O2Plants = () => {
             such as formaldehyde, benzene, and trichloroethylene. This makes the
             air cleaner and healthier to breathe.
           </p>
-          <div className="flex items-center">
+          <div className="flex items-center justify-between mt-4">
             <button className="border border-white rounded-xl px-3 py-1">
               Explore
             </button>
-            <span className="flex">
+            <span className="flex items-center">
               <ChevronLeft />
               <span>
-                01/<span>04</span>
+                <span className="text-xl">01/</span>
+                <span>04</span>
               </span>
               <ChevronRight />
             </span>
           </div>
         </div>
-        <div className="absolute -top-18  left-8">
+        <div className="absolute md:-top-18  left-8">
           <img src={o2} alt="" className="h-120 w-120" />
         </div>
       </div>
