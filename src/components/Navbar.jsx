@@ -1,16 +1,13 @@
 import { Search, ShoppingBag } from "lucide-react";
 import React from "react";
+import logo from "../assets/logo-img.png";
 
 const Navbar = () => {
   return (
     <section className="max-w-full flex mt-10 items-center justify-between gap-50 ml-5">
       {/* Logo */}
       <div className="flex items-center gap-3">
-        <img
-          src="src/assets/logo-img.png"
-          alt="logo"
-          className="h-14 w-14 object-contain"
-        />
+        <img src={logo} alt="logo" className="h-14 w-14 object-contain" />
         <h1 className="text-white text-4xl font-bold">FloraVision.</h1>
       </div>
 

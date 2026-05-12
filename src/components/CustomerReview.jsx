@@ -1,5 +1,8 @@
 import { ChevronRight, Star, StarHalf } from "lucide-react";
 import React from "react";
+import cr1 from "../assets/cr1.png";
+import cr2 from "../assets/cr2.jpg";
+import cr3 from "../assets/cr3.png";
 
 const CustomerReview = () => {
   return (
@@ -9,7 +12,7 @@ const CustomerReview = () => {
         <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3">
           <div className="flex items-center gap-2">
             <img
-              src="src/assets/cr1.png"
+              src={cr1}
               alt=""
               className="w-10 h-10 rounded-full object-cover"
             />
@@ -32,7 +35,7 @@ const CustomerReview = () => {
         <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3">
           <div className="flex items-center gap-2">
             <img
-              src="src/assets/cr2.jpg"
+              src={cr2}
               alt=""
               className="w-10 h-10 rounded-full object-cover"
             />
@@ -56,7 +59,7 @@ const CustomerReview = () => {
         <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3">
           <div className="flex items-center gap-2">
             <img
-              src="src/assets/cr3.png"
+              src={cr3}
               alt=""
               className="w-10 h-10 rounded-full object-cover"
             />

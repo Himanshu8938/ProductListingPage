@@ -6,6 +6,8 @@ import {
   StarHalf,
 } from "lucide-react";
 import React from "react";
+import heroImg from "../assets/hero-img.png";
+import proImg from "../assets/profile-img.png";
 
 const HeroSection = () => {
   return (
@@ -29,11 +31,7 @@ const HeroSection = () => {
         </div>
         <div className="w-1/2">
           <div className="float-right  bg-white/5 rounded-2xl px-4 py-4">
-            <img
-              src="src/assets/hero-img.png"
-              alt=""
-              className="h-60 w-60 -mt-20"
-            />
+            <img src={heroImg} alt="" className="h-60 w-60 -mt-20" />
             <div className="px-6">
               <p className="text-white/70">Indoor Plant</p>
               <div className="flex items-center gap-6">
@@ -56,11 +54,7 @@ const HeroSection = () => {
       </div>
       <div className="text-white w-80 bg-white/5 rounded-2xl px-4 py-3 absolute top-120 left-10">
         <div className="flex items-center gap-2">
-          <img
-            src="src/assets/profile-img.png"
-            alt=""
-            className="w-10 h-10 rounded-full"
-          />
+          <img src={proImg} alt="" className="w-10 h-10 rounded-full" />
           <div>
             <h1>Ronnie Hamill</h1>
             <span className="flex">

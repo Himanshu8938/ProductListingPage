@@ -1,5 +1,11 @@
 import { ChevronRight, ShoppingBag } from "lucide-react";
 import React from "react";
+import tsp1 from "../assets/hero-img.png";
+import tsp2 from "../assets/trendyPlant1.png";
+import tsp3 from "../assets/cactus.png";
+import tsp4 from "../assets/tsp4.png";
+import tsp5 from "../assets/tsp5.png";
+import tsp6 from "../assets/tsp6.png";
 
 const TopSellingPlant = () => {
   return (
@@ -9,11 +15,7 @@ const TopSellingPlant = () => {
       </h1>
       <div className="grid md:grid-cols-3 gap-30 mx-4 my-18">
         <div className="bg-white/5 rounded-2xl w-80 h-90">
-          <img
-            src="src/assets/hero-img.png"
-            alt=""
-            className="h-60 w-60 -mt-16 mx-6"
-          />
+          <img src={tsp1} alt="" className="h-60 w-60 -mt-16 mx-6" />
           <div className="px-6">
             <h5 className="text-2xl font-light">Aglaonema plant</h5>
             <p className="font-extralight">
@@ -29,11 +31,7 @@ const TopSellingPlant = () => {
           </div>
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
-          <img
-            src="src/assets/trendyPlant1.png"
-            alt=""
-            className="h-60 w-60 -mt-16 mx-6"
-          />
+          <img src={tsp2} alt="" className="h-60 w-60 -mt-16 mx-6" />
           <div className="px-6">
             <h5 className="text-2xl font-light">Plantain Lilies</h5>
             <p className="font-extralight">
@@ -49,11 +47,7 @@ const TopSellingPlant = () => {
           </div>
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
-          <img
-            src="src/assets/cactus.png"
-            alt="Cactus"
-            className="h-60 w-60 -mt-16 mx-10"
-          />
+          <img src={tsp3} alt="Cactus" className="h-60 w-60 -mt-16 mx-10" />
           <div className="px-6">
             <h5 className="text-2xl font-light">Cactus</h5>
             <p className="font-extralight">
@@ -69,7 +63,7 @@ const TopSellingPlant = () => {
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
           <img
-            src="src/assets/tsp4.png"
+            src={tsp4}
             alt="Swiss cheese Plant"
             className="h-60 w-60 -mt-16 mx-6"
           />
@@ -89,7 +83,7 @@ const TopSellingPlant = () => {
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
           <img
-            src="src/assets/tsp5.png"
+            src={tsp5}
             alt="Sansevieria plant"
             className="h-60 w-60 -mt-16 mx-6"
           />
@@ -109,7 +103,7 @@ const TopSellingPlant = () => {
         </div>
         <div className="bg-white/5 rounded-2xl w-80 h-90">
           <img
-            src="src/assets/tsp6.png"
+            src={tsp6}
             alt="Agave plant"
             className="h-60 w-60 -mt-16 mx-10"
           />

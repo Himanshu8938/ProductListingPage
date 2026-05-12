@@ -1,5 +1,6 @@
 import { ChevronLeft, ChevronRight, ShoppingBag } from "lucide-react";
 import React from "react";
+import o2 from "../assets/hero-img.png";
 
 const O2Plants = () => {
   return (
@@ -34,7 +35,7 @@ const O2Plants = () => {
           </div>
         </div>
         <div className="absolute -top-18  left-8">
-          <img src="src/assets/hero-img.png" alt="" className="h-120 w-120" />
+          <img src={o2} alt="" className="h-120 w-120" />
         </div>
       </div>
       <div className="flex items-center justify-center gap-2 mt-10">
